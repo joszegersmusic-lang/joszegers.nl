@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Jos Zegers — Dirigent, hoofdvakdocent HaFaBra Directie aan Conservatorium Maastricht. Chef-dirigent Kerkraads Symfonie Orkest en dirigent Fanfare Bereden Wapens.">
+  <meta property="og:title" content="Jos Zegers — Dirigent">
+  <meta property="og:description" content="Dirigent van professionele orkesten en amateurensembles, en hoofdvakdocent dirigeren aan Conservatorium Maastricht.">
+  <meta property="og:type" content="website">
+  <title>Jos Zegers — Dirigent</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- NAVIGATIE -->
+  <nav class="nav" id="nav">
+    <a href="#home" class="nav__logo">Jos Zegers</a>
+    <button class="nav__toggle" id="navToggle" aria-label="Menu openen/sluiten">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <ul class="nav__menu" id="navMenu">
+      <li><a href="#over" class="nav__link">Over</a></li>
+      <li><a href="#actueel" class="nav__link">Actueel</a></li>
+      <li><a href="#projecten" class="nav__link">Projecten</a></li>
+      <li><a href="#lesgeven" class="nav__link">Lesgeven</a></li>
+      <li><a href="#jurywerk" class="nav__link">Jurywerk</a></li>
+      <li><a href="#contact" class="nav__link nav__link--cta">Contact</a></li>
+    </ul>
+    <div class="nav__lang">
+      <span class="nav__lang--current">NL</span>
+      <span class="nav__lang--sep">|</span>
+      <a href="/en/" class="nav__lang--link">EN</a>
+      <span class="nav__lang--sep">|</span>
+      <a href="/de/" class="nav__lang--link">DE</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero__image">
+      <!--
+        AFBEELDING: portrait.jpg
+        Gebruik de professionele portretfoto met donkere achtergrond.
+        Aanbevolen formaat: minimaal 1400×1800px, gecentreerd op gezicht.
+      -->
+      <img src="images/portrait.jpg" alt="Jos Zegers, dirigent" onerror="this.parentElement.classList.add('hero__image--placeholder')">
+    </div>
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <span class="hero__label">Dirigent · Hoofdvakdocent HaFaBra Directie</span>
+      <h1 class="hero__name">Jos Zegers</h1>
+      <p class="hero__tagline">Dirigent van professionele orkesten en amateurensembles, en hoofdvakdocent dirigeren aan Conservatorium Maastricht.</p>
+      <div class="hero__actions">
+        <a href="#projecten" class="btn btn--primary">Projecten</a>
+        <a href="#contact" class="btn btn--ghost">Contact</a>
+      </div>
+    </div>
+    <a href="#over" class="hero__scroll" aria-label="Scroll naar beneden">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+        <path d="M12 5v14M5 12l7 7 7-7"/>
+      </svg>
+    </a>
+  </section>
+
+  <!-- OVER -->
+  <section class="section" id="over">
+    <div class="container">
+      <div class="about">
+        <div class="about__text reveal">
+          <div class="label">Over</div>
+          <h2 class="title">Een dirigent<br>die ook luistert</h2>
+          <p>Geboren in 1983, opgegroeid in Limburg. Mijn muzikale pad begon als hoboïst — eerst in Maastricht, daarna aan het Koninklijk Conservatorium in Den Haag bij Hans Roerade, solo-hoboïst van het Residentieorkest. Parallel daaraan studeerde ik HaFaBra Directie in Den Haag, in 2011 <em>cum laude</em> afgerond. Daarvoor studeerde ik ook Business Economics aan de Universiteit Maastricht.</p>
+          <p>In 2015 won ik de Internationale Dirigentenwedstrijd Con Brio in Innsbruck. Van 2016 tot 2022 was ik chef-dirigent en algeheel leidinggevende van het Bundespolizeiorchester München, een groot professioneel orkest met meer dan negentig optredens per seizoen.</p>
+          <p>Sinds mijn terugkeer naar Nederland ben ik dirigent van de Fanfare Bereden Wapens van de Koninklijke Landmacht en chef-dirigent van het Kerkraads Symfonie Orkest. Daarnaast dirigeer ik Philharmonie Sittard en ben ik hoofdvakdocent HaFaBra Directie aan Conservatorium Maastricht (Zuyd).</p>
+          <p class="about__quote">In het werk probeer ik leider, begeleider en teamspeler tegelijk te zijn — met oog voor het proces én voor de mensen erin.</p>
+          <div class="stats">
+            <div class="stat">
+              <span class="stat__num">2015</span>
+              <span class="stat__label">Con Brio Innsbruck</span>
+            </div>
+            <div class="stat">
+              <span class="stat__num">90+</span>
+              <span class="stat__label">Optredens / seizoen</span>
+            </div>
+            <div class="stat">
+              <span class="stat__num">50M+</span>
+              <span class="stat__label">Streams als Pixie Dust</span>
+            </div>
+          </div>
+        </div>
+        <div class="about__image reveal reveal--right">
+          <!--
+            AFBEELDING: about.jpg
+            Gebruik een actiefoto op het podium — bijvoorbeeld de foto waar je dirigeert
+            met baton omhoog in blauwe jas, of de dramatische militaire uniformfoto.
+            Aanbevolen formaat: ca. 800×1000px (portretoriëntatie).
+          -->
+          <img src="images/about.jpg" alt="Jos Zegers dirigeert" onerror="this.parentElement.classList.add('img--placeholder')">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACTUEEL -->
+  <section class="section section--dark" id="actueel">
+    <div class="container">
+      <div class="reveal">
+        <div class="label">Actueel</div>
+        <h2 class="title">Op het programma</h2>
+      </div>
+      <article class="news-card reveal">
+        <div class="news-card__meta">
+          <span class="news-card__tag">Muziektheater</span>
+          <span class="news-card__date">Juni 2026</span>
+        </div>
+        <div class="news-card__body">
+          <h3>Mit d'r kop in de wolke</h3>
+          <p class="news-card__sub">De Ummer d'r Neaver Musical — muzikale leiding</p>
+          <p>Een dialectmusical rond de liedjes van de Kerkraadse band Ummer d'r Neaver. Voor deze productie verzorg ik de muzikale leiding en denk ik mee aan de inhoudelijke en creatieve invulling, samen met onder anderen Marc Hermans en Joost Meijs. Regie: Max Charlier en Roger Lataster. Choreografie: Ton Greten. Een live orkest van twaalf muzikanten.</p>
+          <div class="news-card__dates">
+            <div class="news-card__date-item">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+              <span>25 juni (galapremière) · 26, 27 &amp; 28 juni</span>
+            </div>
+            <div class="news-card__date-item">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
+              <span>Theater Kerkrade</span>
+            </div>
+          </div>
+          <a href="https://www.plt.nl/programma/mit-dr-kop-in-de-wolke-de-ummer-dr-neaver-musical" target="_blank" rel="noopener noreferrer" class="btn btn--primary">Meer info &amp; tickets</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- FOTO'S -->
+  <section class="section" id="fotos">
+    <div class="container">
+      <div class="reveal">
+        <div class="label">Foto's</div>
+        <h2 class="title">In beeld</h2>
+      </div>
+      <div class="gallery reveal">
+        <!--
+          AFBEELDINGEN: gallery-1.jpg t/m gallery-6.jpg
+          Aanbevolen selectie:
+          gallery-1.jpg (breed) — dirigeerfoto in concertzaal (blauwe jas, baton omhoog)
+          gallery-2.jpg — portretfoto dirigeren (close-up profiel, zwart-wit)
+          gallery-3.jpg — repetitie met cello-solist (rode jurk)
+          gallery-4.jpg — militaire uniformfoto (dramatisch licht)
+          gallery-5.jpg (breed) — KSO-concert podiumfoto met bloemen
+          gallery-6.jpg — Pixie Dust / op podium met laptop
+        -->
+        <div class="gallery__item gallery__item--wide">
+          <img src="images/gallery-1.jpg" alt="Jos Zegers dirigeert" loading="lazy">
+        </div>
+        <div class="gallery__item">
+          <img src="images/gallery-2.jpg" alt="Jos Zegers" loading="lazy">
+        </div>
+        <div class="gallery__item">
+          <img src="images/gallery-3.jpg" alt="Jos Zegers met solist" loading="lazy">
+        </div>
+        <div class="gallery__item">
+          <img src="images/gallery-4.jpg" alt="Jos Zegers in uniform" loading="lazy">
+        </div>
+        <div class="gallery__item gallery__item--wide">
+          <img src="images/gallery-5.jpg" alt="Jos Zegers op podium" loading="lazy">
+        </div>
+        <div class="gallery__item">
+          <img src="images/gallery-6.jpg" alt="Jos Zegers" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTEN -->
+  <section class="section section--dark" id="projecten">
+    <div class="container">
+      <div class="reveal">
+        <div class="label">Projecten</div>
+        <h2 class="title">Werk &amp; samenwerkingen</h2>
+      </div>
+
+      <div class="projects reveal">
+
+        <div class="project project--featured">
+          <div class="project__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2a3 3 0 0 1 3 3v7a3 3 0 0 1-6 0V5a3 3 0 0 1 3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2M12 19v3M8 22h8"/></svg>
+          </div>
+          <div class="project__content">
+            <h3>Maestro</h3>
+            <span class="project__sub">Podcast over dirigeren</span>
+            <p>Samen met dirigent Sander Teepen maak ik de podcast <em>Maestro</em>, met afleveringen over programmeren, repeteren, leiderschap en wat er achter de dirigentenbok gebeurt. Voor dirigenten, musici en iedereen die met groepen werkt.</p>
+            <a href="https://open.spotify.com/show/6qAP26fsxaBlMo9mdwS8JP" target="_blank" rel="noopener noreferrer" class="project__link">
+              Luister op Spotify
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="project project--featured">
+          <div class="project__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+          </div>
+          <div class="project__content">
+            <h3>Pixie Dust</h3>
+            <span class="project__sub">Elektronische muziekproductie · Jazz-hop</span>
+            <p>Onder de naam <em>Pixie Dust</em> produceer ik elektronische muziek in het genre jazz-hop — inmiddels goed voor meer dan 50 miljoen streams op Spotify en Apple Music. Live onder meer tijdens WMC 2022 in Kerkrade.</p>
+            <a href="https://open.spotify.com/artist/0kSqe2dBbt8rg07yfEBnjR" target="_blank" rel="noopener noreferrer" class="project__link">
+              Luister op Spotify
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="project">
+          <h3>Huidige posities</h3>
+          <ul class="project__list">
+            <li>Fanfare Bereden Wapens — Koninklijke Landmacht</li>
+            <li>Kerkraads Symfonie Orkest — chef-dirigent</li>
+            <li>Philharmonie Sittard — dirigent</li>
+            <li>Conservatorium Maastricht (Zuyd) — hoofdvakdocent HaFaBra Directie</li>
+          </ul>
+        </div>
+
+        <div class="project">
+          <h3>Gastdirecties</h3>
+          <ul class="project__list">
+            <li>Polizeiorchester Bayern</li>
+            <li>Münchener Symphoniker</li>
+            <li>Bundespolizeiorchester Hannover</li>
+          </ul>
+        </div>
+
+        <div class="project">
+          <h3>Harmonie &amp; fanfare</h3>
+          <ul class="project__list">
+            <li>Jeugdorkest Philharmonie Bocholtz</li>
+            <li>Harmonie Noorbeek</li>
+            <li>Harmonie Nederweert</li>
+            <li>Harmonie Nieuwenhagen</li>
+            <li>Fanfare SDG Ommen</li>
+            <li>Fanfare Akkrum</li>
+            <li>Fanfare Eensgezindheid Maasbracht</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="collabs reveal">
+        <h3 class="collabs__title">Samenwerkingen</h3>
+        <p class="collabs__intro">Een greep uit de samenwerkingen met solisten en ensembles door de jaren heen, inclusief optredens bij Vrienden van Amstel Live in Ahoy (januari 2023):</p>
+        <p class="collabs__names">Het Goede Doel · Do · Syb van der Ploeg · Gé Reinders · John Helliwell (Supertramp) · Nederlands Blazers Ensemble · Piter Wilkens · Elske DeWall · De Maastreechter Staar · Johan van Iersel · Wolfram Schmitt-Leonardy · Lode Smeets · Amsterdam Klezmer Band · Benjamin Herman · Eric Vloeimans · The Rosenbergs · Dinand Woesthoff · Miss Montreal · Thomas Acda &amp; Paul de Munnik · Guus Meeuwis · Kraantje Pappie · Maan · Jack Poels · Barry Hay · S10 · Danny Vera</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- LESGEVEN -->
+  <section class="section" id="lesgeven">
+    <div class="container">
+      <div class="teaching">
+        <div class="teaching__image reveal reveal--right">
+          <!--
+            AFBEELDING: teaching.jpg
+            Gebruik een repetitie- of lesfoto — bv. de foto waar je dirigeert met
+            studenten (blauwe jas, jonge musici) of zittend met partituur.
+            Aanbevolen formaat: ca. 800×1000px (portretoriëntatie).
+          -->
+          <img src="images/teaching.jpg" alt="Jos Zegers geeft les" onerror="this.parentElement.classList.add('img--placeholder')">
+        </div>
+        <div class="teaching__text reveal">
+          <div class="label">Lesgeven &amp; Coaching</div>
+          <h2 class="title">Conservatorium<br>Maastricht</h2>
+          <h3>Hoofdvakdocent HaFaBra Directie — 2022–heden</h3>
+          <p>Sinds 2022 ben ik hoofdvakdocent HaFaBra Directie aan Conservatorium Maastricht, in de lijn van mijn voorgangers Jan Cober en Yvan Meylemans. In die rol ben ik verantwoordelijk voor de volledige professionele opleiding van dirigenten voor harmonie, fanfare en brassband — van vaktechniek en partituurstudie tot repetitiedidactiek en muzikaal leiderschap. Sinds 2023 ben ik ook vertegenwoordiger van de vakgroep directie en lid van het curriculum committee.</p>
+          <p>Studenten doorlopen bij mij een traject dat verder gaat dan techniek alleen. Hoe sta je als dirigent in een repetitie? Wat vertel je een orkest — en wat juist niet? Hoe bouw je een interpretatie op vanuit de partituur? Die vragen staan centraal in mijn onderwijs.</p>
+          <p>Het Nederlandse muzieklandschap is in beweging. De leerlijn van eerste muziekles tot conservatorium is op veel plekken niet meer vanzelfsprekend. Voor mij ligt de oplossing in de keten: bij de basisschool, waar muziekonderwijs een vaste plek zou mogen hebben.</p>
+          <a href="https://open.spotify.com/show/6qAP26fsxaBlMo9mdwS8JP" target="_blank" rel="noopener noreferrer" class="btn btn--primary">Luister Maestro</a>
+        </div>
+      </div>
+
+      <!-- COACHING VOOR DIRIGENTEN -->
+      <div class="coaching reveal">
+        <div class="coaching__header">
+          <h3 class="coaching__title">Coaching voor dirigenten</h3>
+          <p class="coaching__intro">Naast mijn werk aan het conservatorium begeleid ik individueel dirigenten buiten de reguliere opleiding — van amateurs die willen groeien tot (semi-)professionelen die aan specifieke aspecten van hun dirigeren willen werken.</p>
+        </div>
+        <div class="coaching__grid">
+          <div class="coaching__item">
+            <div class="coaching__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>
+            </div>
+            <h4>Individuele sessies</h4>
+            <p>Één-op-één begeleiding, volledig afgestemd op uw vragen en doelen. Geschikt voor elke fase van uw ontwikkeling als dirigent.</p>
+          </div>
+          <div class="coaching__item">
+            <div class="coaching__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+            </div>
+            <h4>Techniek &amp; partituurstudie</h4>
+            <p>Van slag- en gebarentechniek tot partituuranalyse en de voorbereiding van een repetitie. Met aandacht voor de verbinding tussen score en klank.</p>
+          </div>
+          <div class="coaching__item">
+            <div class="coaching__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h4>Repetitievaardigheid &amp; leiderschap</h4>
+            <p>Hoe leidt u een repetitie effectief? Communicatie, structuur, het motiveren van musici — de niet-muzikale kant van dirigeren die het verschil maakt.</p>
+          </div>
+        </div>
+        <div class="coaching__cta">
+          <a href="#contact" class="btn btn--ghost">Neem contact op voor een intakegesprek</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- JURYWERK -->
+  <section class="section section--dark" id="jurywerk">
+    <div class="container">
+      <div class="jury reveal">
+        <div class="jury__text">
+          <div class="label">Jurywerk</div>
+          <h2 class="title">Als jurylid</h2>
+          <p>Nationaal en internationaal jurylid bij muziekconcoursen voor blaasorkesten, voor zowel de KNMO (Koninklijke Nederlandse Muziek Organisatie) als de Bayerischer Blasmusikverband.</p>
+        </div>
+        <div class="jury__logos">
+          <span class="jury__org">KNMO</span>
+          <span class="jury__sep">·</span>
+          <span class="jury__org">Bayerischer Blasmusikverband</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="contact reveal">
+        <div class="label">Contact</div>
+        <h2 class="title">In gesprek</h2>
+        <p class="contact__intro">Voor concertaanvragen, gastdirecties, lesinformatie of overige vragen:</p>
+        <div class="contact__links">
+          <a href="mailto:joszegersmusic@gmail.com" class="contact__item">
+            <div class="contact__icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 7 10-7"/></svg>
+            </div>
+            <div class="contact__detail">
+              <span class="contact__label">E-mail</span>
+              <span class="contact__value">joszegersmusic@gmail.com</span>
+            </div>
+          </a>
+          <a href="https://www.linkedin.com/in/joszegers" target="_blank" rel="noopener noreferrer" class="contact__item">
+            <div class="contact__icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="2"/><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </div>
+            <div class="contact__detail">
+              <span class="contact__label">LinkedIn</span>
+              <span class="contact__value">linkedin.com/in/joszegers</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span class="footer__copy">© Jos Zegers · joszegers.nl</span>
+      <nav class="footer__nav" aria-label="Footer navigatie">
+        <a href="#over">Over</a>
+        <a href="#projecten">Projecten</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
