@@ -345,15 +345,6 @@ figcaption {
 .ensembles figure img { aspect-ratio: 4 / 5; object-fit: cover; }
 .ensembles .is-wide figure img { aspect-ratio: 8 / 7; }
 
-.repertoire {
-  align-self: start;
-  margin-top: 0.4rem;
-  padding-left: 1rem;
-  border-left: 2px solid var(--accent);
-}
-.repertoire dt { color: var(--ink-2); font-size: 0.95rem; margin-bottom: 0.25rem; }
-.repertoire dd { font-family: var(--display); font-variation-settings: "opsz" 11; font-size: 1.1rem; line-height: 1.4; }
-.repertoire dd i { font-family: var(--text); font-style: normal; color: var(--ink-2); font-size: 0.95rem; }
 
 /* Biografie */
 .bio {
