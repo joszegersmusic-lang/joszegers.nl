@@ -163,8 +163,8 @@ a:hover { color: var(--accent); text-decoration-color: currentColor; }
 .nav { margin-left: auto; }
 .menu {
   display: flex;
-  gap: 1.6rem;
-  font-size: 0.95rem;
+  gap: 1.3rem;
+  font-size: 0.92rem;
 }
 .menu a {
   display: inline-flex;
@@ -353,6 +353,7 @@ figcaption {
   column-gap: var(--gutter);
   align-items: start;
 }
+.bio figure { position: sticky; top: calc(var(--bar) + 2rem); }
 .bio figure img { aspect-ratio: 4 / 5; object-fit: cover; object-position: 50% 30%; }
 
 .facts {
@@ -381,6 +382,34 @@ figcaption {
 }
 .sub h3 { margin-bottom: 1rem; }
 
+/* Maestro */
+.listen { margin-top: 2.75rem; max-width: 48rem; }
+.listen__intro { margin-bottom: 1.1rem; font-size: 1.1rem; }
+.listen ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(13.5rem, 1fr));
+  gap: 0.75rem;
+}
+.listen a {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  height: 100%;
+  padding: 1rem 1.15rem 1.05rem;
+  border: 1px solid var(--rule);
+  text-decoration: none;
+}
+.listen a:hover { border-color: var(--accent); color: inherit; }
+.listen__name {
+  font-family: var(--display);
+  font-weight: 600;
+  font-variation-settings: "opsz" 14;
+  font-size: 1.35rem;
+  line-height: 1.15;
+}
+.listen__do { color: var(--ink-2); font-size: 0.95rem; }
+.listen a:hover .listen__do { color: var(--accent); }
+
 /* Projecten */
 .works > li {
   display: grid;
@@ -394,7 +423,7 @@ figcaption {
 .works .prose { grid-column: 1; }
 .works figure { grid-column: 2; grid-row: 1 / span 2; }
 .works figure img { aspect-ratio: 4 / 3; object-fit: cover; }
-.works .more { margin-top: 1rem; font-size: 1rem; }
+.more { margin-top: 1rem; font-size: 1rem; }
 
 /* Samenwerking */
 .groups {
@@ -449,7 +478,7 @@ figcaption {
 .foot a { text-decoration: none; }
 
 /* ---------- Kleinere schermen ---------- */
-@media (max-width: 1100px) {
+@media (max-width: 1240px) {
   .menu-button { display: inline-block; }
   .nav { margin-left: 0; }
   .menu {
@@ -492,7 +521,7 @@ figcaption {
   .bio,
   .contact { grid-template-columns: minmax(0, 1fr); row-gap: 1.75rem; }
   .works figure { grid-column: 1; grid-row: auto; }
-  .bio figure { max-width: 26rem; }
+  .bio figure { max-width: 26rem; position: static; }
   .contact figure { max-width: 16rem; }
 }
 
